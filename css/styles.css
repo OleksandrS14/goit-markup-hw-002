@@ -43,7 +43,7 @@ ul, ol {
 }
 .address-link:hover,
 .nav-link:focus {
-    color: #404BBF; 
+    color: #404bbf; 
 }
 
 .hero {
@@ -74,6 +74,11 @@ ul, ol {
     color: #fff;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
 .features {
 }
 
@@ -99,6 +104,7 @@ ul, ol {
 }
 
 .team {
+    background-color: #F4F4FD
 }
 
 .team-title-title {
@@ -108,12 +114,14 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list {
 }
 
 .team-item {
+    background-color: #FFFFFF
 }
 
 .team-subtile {
@@ -130,6 +138,39 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #434455;
+}
+
+.portfolio {
+}
+
+.portfolio-title-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
