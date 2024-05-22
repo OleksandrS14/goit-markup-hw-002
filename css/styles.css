@@ -3,11 +3,25 @@ body {
     color: #434455;
     background-color: #FFFF;
 }
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
 a {
     text-decoration: none;
+    color: currentColor;
 }
 ul, ol {
     list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -46,22 +60,36 @@ ul, ol {
     color: #404bbf; 
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 15;
+    padding-left: 15;
+}
+
 .hero {
     background: #2e2f42;
 }
 
+.hero-wrap {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 .hero-title {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFF;
+    max-width: 496px;
+    margin: 0 auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-btn {
-    border-radius: 4px;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -73,6 +101,13 @@ ul, ol {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    margin: 0 auto;
+}
+
+.button-hero-btn {
+    border-radius: 4px;
+    padding-top: 48px;
+    padding-bottom: 188px;
 }
 
 .hero-btn:hover,
@@ -81,6 +116,8 @@ ul, ol {
 }
 
 .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .features-list {
@@ -116,13 +153,17 @@ ul, ol {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .team-list {
 }
 
 .team-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    padding-top: 72px;
+    padding-bottom: 120px;
 }
 
 .team-subtile {
@@ -132,6 +173,8 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .team-item-text {
@@ -140,9 +183,12 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 32px;
 }
 
 .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title-title {
@@ -153,12 +199,17 @@ ul, ol {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .portfolio-list {
 }
 
 .portfolio-item {
+    padding-top: 72px;
+    padding-bottom: 48px;
+    
 }
 
 .portfolio-subtitle {
@@ -167,6 +218,8 @@ ul, ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -174,10 +227,14 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 8px;
+    padding-bottom: 32px;
 }
 
 .footer {
     background: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -188,6 +245,8 @@ ul, ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding-top: 100px;
+    padding-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -205,4 +264,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    padding-top: 16;
+    padding-bottom: 100px;
 }
